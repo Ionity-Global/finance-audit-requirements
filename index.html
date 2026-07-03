@@ -73,10 +73,10 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cyan);bo
 .opt:has(input:focus-visible){box-shadow:0 0 0 3px rgba(0,191,255,.25)}
 
 /* ---- Smart-fill preset panel ---- */
-.presets{background:linear-gradient(160deg,#0f2136,#0d1b2a);border:1px solid rgba(0,191,255,.35);color:#EAF4FB}
-.presets::before{background:linear-gradient(180deg,#00e0ff,rgba(0,224,255,.2))}
-.presets h2{color:#fff}
-.presets .hint{color:#AFc9DD}
+section.card.presets{background:linear-gradient(160deg,#0f2136,#0d1b2a);border:1px solid rgba(0,191,255,.35);color:#EAF4FB}
+section.card.presets::before{background:linear-gradient(180deg,#00e0ff,rgba(0,224,255,.2))}
+section.card.presets h2{color:#fff}
+section.card.presets p.hint{color:#AFc9DD}
 .preset-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:6px}
 @media(max-width:600px){.preset-grid{grid-template-columns:1fr}}
 .preset{
